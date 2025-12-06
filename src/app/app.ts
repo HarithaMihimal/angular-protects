@@ -12,4 +12,5 @@ import { Navbar } from './navbar/navbar';
 export class App {
   protected readonly title = signal('dp-education-example');
   imageUrl: string = 'https://upload.wikimedia.org/wikipedia/commons/6/67/Angular_gradient_logo.png';
+  areaLabel:string = 'Area of triangle';
 }
